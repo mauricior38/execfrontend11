@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    outline: none;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+header p{
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+header h1{
+    background-color: #00669F;
+    padding: 30px;
+    font-weight: 400;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    
+}
+
+main{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    
+      
+}
+
+.card{
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3F3;
+    position: relative;
+    border-radius: 20px 20px 0 0 ;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);    
+    
+}
+
+.banner{
+    border-radius: 20px 20px 0 0 ;
+    width: 100%;
+}
+
+.perfil{
+    border-radius: 150px;
+    width: 120px;
+    margin-top: -100px;
+    object-fit: cover;
+    
+}
+
+.like{
+    width: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.like:hover{
+    opacity: 1;
+    
+}
+
+section h1{
+    padding: 30px;
+    font-size: 40px;
+}
+
+section p {
+    text-align: center;
+    padding: 30px;
+    margin-top: -10px;   
+}
+
+section button{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #00669F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: #1b97df ;
+}
+
+footer{
+    background-color: #00669F;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    
+}
